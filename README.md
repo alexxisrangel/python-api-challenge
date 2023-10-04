@@ -107,20 +107,24 @@ In this deliverable I used my weather data in order to plan future vacations usi
 
 Creating Map 
 After importing my dependecies and creating a DataFrame from my ciites.csv I created a map that displayed a point for every city in my DataFrame. The size of each point reflects the humidity for each city. 
+<img width="623" alt="Screenshot 2023-10-03 at 9 35 09 PM" src="https://github.com/alexxisrangel/python-api-challenge/assets/129305054/3e30271a-a96d-4d1c-a37e-d5ed8a780c97">
 
-/var/folders/w9/1qf67rw90dgbqv7rkw546lvh0000gn/T/TemporaryItems/NSIRD_screencaptureui_XZWl4f/Screenshot 2023-10-03 at 3.21.34 PM.png
 
 Narrowing Search 
-I narrowed down my cities to the ideal conditions I would like while being on vacation /var/folders/w9/1qf67rw90dgbqv7rkw546lvh0000gn/T/TemporaryItems/NSIRD_screencaptureui_wxjYSk/Screenshot 2023-10-03 at 3.23.06 PM.png
+I narrowed down my cities to the ideal conditions I would like while being on vacation 
+
+<img width="1021" alt="Screenshot 2023-10-03 at 9 36 11 PM" src="https://github.com/alexxisrangel/python-api-challenge/assets/129305054/64d65832-9312-433e-93bb-000b1a43d66a">
 
 
 Geoapify API 
 
 I used the geoapify API in order to get a list of hotels within the city limits of my ideal weather conidtions. For this step I created a loop thats iterates through the API, looksd for hotels within 10000 m of my city and logs the results for me
-/var/folders/w9/1qf67rw90dgbqv7rkw546lvh0000gn/T/TemporaryItems/NSIRD_screencaptureui_O10DT3/Screenshot 2023-10-03 at 3.25.00 PM.png
+
+<img width="995" alt="Screenshot 2023-10-03 at 9 36 36 PM" src="https://github.com/alexxisrangel/python-api-challenge/assets/129305054/6a051762-55cf-4278-b02c-d9486c86321d">
 
 
-
+Finally I was able to add the hotels onto my map along with "Hotel Name" and "Country" as the hover data 
+<img width="730" alt="Screenshot 2023-10-03 at 9 37 12 PM" src="https://github.com/alexxisrangel/python-api-challenge/assets/129305054/739873b1-42bd-49b9-80e1-257dfa6c0401">
 
 
 
