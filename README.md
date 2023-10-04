@@ -38,12 +38,12 @@ api_keys.py
 In the command line, type git status and press Enter. The output should indicate that the .gitignore file has been modified and the api_keys.py file is untracked.
 
 
-#### Instructions
+### Instructions
 
 This activity is broken down into two deliverables, WeatherPy and VacationPy.
 
 
-##### WeatherPy Deliverable 
+### WeatherPy Deliverable 
 
 In this deliverable I vizualizes over 500 cities varying distances near the equator. I used  citipy Python library and the OpenWeatherMap API in order to obtain the neccessry data required. 
 
@@ -91,7 +91,7 @@ Latitude vs. Wind Speed
 ![Uploading Screenshot 2023-10-03 at 2.52.44 PM.png…]()
 
 
-Linear Regression 
+## Linear Regression 
 
 <img width="908" alt="Screenshot 2023-10-03 at 9 30 26 PM" src="https://github.com/alexxisrangel/python-api-challenge/assets/129305054/dcb711a1-da19-43b2-8858-4d79f36b4d0a">
 
@@ -102,7 +102,8 @@ Linear Regression
 After reviewing linear regression for each relationship I noticed that the r-value was not very high for most relationships. The highest correlation I found was for Temperature vs. Lattitude for the Northern Hemisphere. It had an r-value of 0.7. What we can see from the reationship is that temperatures tend to drop the closer we get to lattitude 100 and we see higher temeperatures the closer we get to 0. 
 
 
-VacationPy Deliverable
+### VacationPy Deliverable
+
 In this deliverable I used my weather data in order to plan future vacations using Jupyter notebooks, the geoViews Python library, and the Geoapify API.
 
 Creating Map 
