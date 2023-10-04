@@ -33,7 +33,7 @@ Open your python-api-challenge GitHub folder in VS Code.
 
 Open the .gitignore file and type the following code on the first line:
 
-# Adding config.py file.
+Adding config.py file.
 api_keys.py
 In the command line, type git status and press Enter. The output should indicate that the .gitignore file has been modified and the api_keys.py file is untracked.
 
@@ -49,19 +49,24 @@ In this deliverable I vizualizes over 500 cities varying distances near the equa
 
 Importing dependencies 
 
-/var/folders/w9/1qf67rw90dgbqv7rkw546lvh0000gn/T/TemporaryItems/NSIRD_screencaptureui_9TJDFj/Screenshot 2023-10-03 at 2.41.09 PM.png
+<img width="898" alt="Screenshot 2023-10-03 at 9 22 53 PM" src="https://github.com/alexxisrangel/python-api-challenge/assets/129305054/e66214e5-9369-427a-a4ed-874cbd2f695d">
+
 
 Generating Citites List with the citipy Library 
 
-/var/folders/w9/1qf67rw90dgbqv7rkw546lvh0000gn/T/TemporaryItems/NSIRD_screencaptureui_hbdeGU/Screenshot 2023-10-03 at 2.42.42 PM.png
+<img width="907" alt="Screenshot 2023-10-03 at 9 23 14 PM" src="https://github.com/alexxisrangel/python-api-challenge/assets/129305054/fb287db5-4a34-4128-9fe0-71a28b08c11f">
 
  
  Creating connection to API 
-/var/folders/w9/1qf67rw90dgbqv7rkw546lvh0000gn/T/TemporaryItems/NSIRD_screencaptureui_IT4aql/Screenshot 2023-10-03 at 2.46.02 PM.png
+
+<img width="703" alt="Screenshot 2023-10-03 at 9 23 37 PM" src="https://github.com/alexxisrangel/python-api-challenge/assets/129305054/c9e5b811-a2ba-4198-a4d6-9a2567a84a9c">
+
 
 
 Creating loop in order to extract nececessry data and adding it to my city_data list
-/var/folders/w9/1qf67rw90dgbqv7rkw546lvh0000gn/T/TemporaryItems/NSIRD_screencaptureui_DfzIVK/Screenshot 2023-10-03 at 2.47.22 PM.png
+
+<img width="994" alt="Screenshot 2023-10-03 at 9 24 08 PM" src="https://github.com/alexxisrangel/python-api-challenge/assets/129305054/bbe757e3-0892-4209-b542-adfbd3d57fb6">
+
 
 After converting data into a DataFrame, I was able to create the following plots: 
 
@@ -73,7 +78,8 @@ Latitude vs. Temperature
 
 Latitude vs. Humidity
 
-/var/folders/w9/1qf67rw90dgbqv7rkw546lvh0000gn/T/TemporaryItems/NSIRD_screencaptureui_PVnRJh/Screenshot 2023-10-03 at 2.52.01 PM.png
+<img width="686" alt="Screenshot 2023-10-03 at 9 29 46 PM" src="https://github.com/alexxisrangel/python-api-challenge/assets/129305054/cc7bcf14-91ac-4b76-9e8f-55a38324afea">
+
 
 Latitude vs. Cloudiness
 
@@ -87,8 +93,10 @@ Latitude vs. Wind Speed
 
 Linear Regression 
 
-/var/folders/w9/1qf67rw90dgbqv7rkw546lvh0000gn/T/TemporaryItems/NSIRD_screencaptureui_duZnPO/Screenshot 2023-10-03 at 3.01.26 PM.png
+<img width="908" alt="Screenshot 2023-10-03 at 9 30 26 PM" src="https://github.com/alexxisrangel/python-api-challenge/assets/129305054/dcb711a1-da19-43b2-8858-4d79f36b4d0a">
 
+
+<img width="686" alt="Screenshot 2023-10-03 at 9 30 51 PM" src="https://github.com/alexxisrangel/python-api-challenge/assets/129305054/21795180-e8e6-4cc8-9f38-986d681b8576">
 
 
 After reviewing linear regression for each relationship I noticed that the r-value was not very high for most relationships. The highest correlation I found was for Temperature vs. Lattitude for the Northern Hemisphere. It had an r-value of 0.7. What we can see from the reationship is that temperatures tend to drop the closer we get to lattitude 100 and we see higher temeperatures the closer we get to 0. 
@@ -112,7 +120,6 @@ I used the geoapify API in order to get a list of hotels within the city limits 
 /var/folders/w9/1qf67rw90dgbqv7rkw546lvh0000gn/T/TemporaryItems/NSIRD_screencaptureui_O10DT3/Screenshot 2023-10-03 at 3.25.00 PM.png
 
 
-Hover Message displaying Hotel Name and country 
 
 
 
