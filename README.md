@@ -1,14 +1,15 @@
 # python-api-challenge
 
 
-Background 
-Data's true power is its ability to definitively answer questions. So, let's take what you've learned about Python requests, APIs, and JSON traversals to answer a fundamental question: "What is the weather like as we approach the equator?"
+## Background 
 
+Data's true power is its ability to definitively answer questions. So, let's take what you've learned about Python requests, APIs, and JSON traversals to answer a fundamental question: "What is the weather like as we approach the equator?"
 Now, we know what you may be thinking: “That’s obvious. It gets hotter.” But, if pressed for more information, how would you prove that?
 
 
 
-Before You Begin (Requirements)
+### Before You Begin (Requirements)
+
 Create a new repository for this project called python-api-challenge. Do not add this homework to an existing repository.
 
 Clone the new repository to your computer.
@@ -36,19 +37,18 @@ Open the .gitignore file and type the following code on the first line:
 api_keys.py
 In the command line, type git status and press Enter. The output should indicate that the .gitignore file has been modified and the api_keys.py file is untracked.
 
-Files
-Download the following files to help you get started:
 
-Module 6 Challenge files
+#### Instructions
 
-Instructions
 This activity is broken down into two deliverables, WeatherPy and VacationPy.
 
 
-WeatherPy Deliverable 
+##### WeatherPy Deliverable 
+
 In this deliverable I vizualizes over 500 cities varying distances near the equator. I used  citipy Python library and the OpenWeatherMap API in order to obtain the neccessry data required. 
 
 Importing dependencies 
+
 /var/folders/w9/1qf67rw90dgbqv7rkw546lvh0000gn/T/TemporaryItems/NSIRD_screencaptureui_9TJDFj/Screenshot 2023-10-03 at 2.41.09 PM.png
 
 Generating Citites List with the citipy Library 
@@ -68,6 +68,7 @@ After converting data into a DataFrame, I was able to create the following plots
 
 Latitude vs. Temperature
 
+<img width="690" alt="Screenshot 2023-10-03 at 2 50 36 PM" src="https://github.com/alexxisrangel/python-api-challenge/assets/129305054/266ca687-5a23-4dec-85f3-1971ff2e398e">
 
 
 Latitude vs. Humidity
@@ -76,9 +77,12 @@ Latitude vs. Humidity
 
 Latitude vs. Cloudiness
 
+![Uploading Screenshot 2023-10-03 at 2.52.23 PM.png…]()
 
 
 Latitude vs. Wind Speed
+
+![Uploading Screenshot 2023-10-03 at 2.52.44 PM.png…]()
 
 
 Linear Regression 
